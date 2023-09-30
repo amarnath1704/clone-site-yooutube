@@ -1,0 +1,67 @@
+.Search-bar
+{
+    display: block;
+}
+
+
+.thumbnail
+{
+   width: 100%;
+}
+
+
+
+.channel-pic
+{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+.vedio-info
+{
+    display: inline-block;
+     width: 245px;
+}
+
+.profile-pic
+{
+    border-radius: 40px;
+    width: 100%;
+}
+.thumbnail-row
+{
+    margin-bottom: 14px;
+}
+p
+{
+ font-family: Roboto,Arial;
+}
+.vedio-title
+{
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 14px;
+}  
+.vedio-auth,.vedio-status
+{
+    color: rgb(96,96,96);
+    font-size: 12px;
+}
+
+.vedio-auth
+{
+    margin-bottom: 4px;
+}
+.vedio-info-grid
+{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.vedio-grid-preview
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 14px;
+}
